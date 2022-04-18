@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>how you doin?</title>
+</head>
+<body>
+    <script>
+        $("#submitForm").click(function() {
+    alert("The Form has been Submitted.");
+ });
+    </script>
+    <div style="background:url(./assets/mainbg.jpg)">
+        <div >
+            <h1 class="container-heading">
+            write to me:
+        </h1>
+        <div class="msgbox">
+            <form id="submitForm" action = "" method = "get"> 
+                <br />
+                
+                <textarea rows = "15" cols = "50" placeholder="hi there. how you doin ?" name = "description" ></textarea>
+                
+                <input type = "submit" value = "submit" />
+             </form>
+        </div>
+        <!-- <div class="msgbox">
+            <textarea  name="" id="" cols="75" rows="15" placeholder="hello there, how you doin?"></textarea>
+            <br>
+            <button type="submit"> Send</button>
+        </div>    -->
+        </div>
+    </div>
+    <div>
+        <form action = "./greeting.html" method = "get">
+            Fill the Detail: 
+            <br />
+            
+            <textarea rows = "5" cols = "50" name = "description">
+               Enter your name
+            </textarea>
+            
+            <input type = "submit" value = "submit" />
+         </form>
+    </div>
+    <div>
+        <h1 style="text-align: center;  margin: 0;">
+            Encode/Decode
+        </h1>
+    </div>
+    <style>
+        div{
+            height: 70vh;
+            top: 0;
+        }
+        .container-heading{
+            text-align: center;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 48px;
+            line-height: 122%;
+            letter-spacing: 0.03em;
+            color: #000000;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.45);
+
+        }
+        .msgbox{
+            /* justify-content: center;
+            /* align-items: center; */
+            text-align: center;
+            box-sizing: border-box;
+        justify-content: center;
+            margin-left: auto;
+    margin-right: auto;
+    /* display: flex; */
+  /* flex-direction: column; */
+  /* vertical-align: middle; */
+        }
+        button{
+            /* display: flex; */
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+            padding: 6px;
+            border-radius: 5px;
+            font-size: 15px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            cursor: grabbing;
+            background: #0da20a;
+            color: whitesmoke;
+            margin-top: 25px;
+        }
+        .msgbox textarea::placeholder{
+            color: rgb(0, 0, 0);
+            font-size: 15px;
+            /* opacity: 0.6; */
+            
+        }
+        .msgbox textarea{
+            background: #91b3b3c0;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            
+        }
+        
+    </style>
+</body>
+</html>
