@@ -11,11 +11,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 /* font-family: 'Indie Flower', cursive; */
 
-/* ============ */
+
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 .slider{
     position: absolute;
@@ -84,8 +83,7 @@ nav h3:hover{
      height: 75%;
      width: 85%;
      position: relative;
-     background:  #234B66;
-    
+     background:  #234B66; 
  }
  .headline{
      position: absolute;
@@ -113,54 +111,50 @@ nav h3:hover{
      text-align: center;
      margin-top: 28px;
      height: 40vh; 
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.45);
+     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.45);
 
+ }  
+ .sectiontwo{
+     margin: 45px auto;
+     margin-top: 115px;
+     /* background: #54b3d6; */
  }
-.sectiontwo{
-    background: #edf6f9;
-
-}
- section .mydata{
-     background: white;
-     box-sizing: border-box;
-     padding: 45px;
-     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
- }
- 
- section .mydata p{
+ .sectiontwo .mydata{
+     padding: 24px;
+     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+     width: 45%;
+     background: rgb(255, 255, 255);
+     text-align: center;
      font-size: 17px;
-     color: rgb(0, 0, 0);
-     line-height: 28px;
-     font-family: 'Quicksand', sans-serif; 
+     max-width: 700px;
+     margin-top: 35px;
+     margin: 0 auto;
+     font-family: 'Quicksand', sans-serif;
+     /* font-family: 'Indie Flower', cursive; */
  }
- section .mydata .textglow{
+ .sectiontwo .mydata p{
+     padding: 38px;
+ }
+ .sectiontwo .mydata .textglow{
      color: #7dba15;
  }
-
- .sectiontwo .mygallery{
-     padding: 15px;
-     margin: 35px;
-     width: 250px;
-     height: 320px;
-     border: 4px solid rgb(7, 122, 160);
-     /* position: fixed; */
+ .sectiontwo .gallery-box{
+     justify-content: center;
+     text-align: center;
+     background: rgb(10, 56, 91);
+     width: 35%;
+     color: #ffffff;
+     max-width: 155px;
+     font-size: 21px;
+     padding: 18px;
+     margin: 0 auto;
+     margin-top: -15px;
+ }
+ .sectiontwo .gallery-box:hover{
+     transform:scale(1.05);
+     transition: 1s;
  }
 
- .sectiontwo .mygallery .mygalleryprim, .mygallerysec{
-     width: 110px;
-     height: 110px;
- }
- .sectiontwo .mygallery .mygalleryprim{
-    border: 4px solid lime;
-}
- .sectiontwo .mygallery .mygallerysec{
-     font-size: 55px;
-     border: 4px solid lime;
-     position: relative;
-     bottom: 0px;
-     left: 0px;
- 
- }
 /* ========================== */
 .hero-container-one{
 margin-left: 150px;
@@ -225,65 +219,10 @@ color: #ffffff;
     transition: .7s;
   
 }
+/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-        .hero-container-one{
-        /* margin-left: 90px;  */
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-        margin-top: 30px;  
-        width: 100%;
-        position: relative; 
-        }
-        #logo{
-            grid-column: 1/5;
-    font-size: 25px;
-    color: #000000;
-    font-size: 19px;
-        }
-        .hero-container-one p{
-            text-align: center;
-            
-            justify-content: center;
-            /* background-color: rgb(128, 167, 29); */
-            /* line-height: 60px; */
-            color: #000000;
-            font-size: 5px;
-            text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.35);
-            }
-        .hero-container-one :nth-child(1){
-            font-family: 'Dancing Script', cursive;
-        }
-        .hero-container-one :nth-child(2){
-            font-size: 14px;
-            display: grid;
-        }
-        .hero-container-one :nth-child(3){
-            font-size: 14px;}
-            
-        .hero-container-one .identity{
-            font-family: 'Kaushan Script', cursive;
-        }
-        .hero-container-one p{
-            font-family: 'Space Mono', monospace;
-            font-size: 28px;
-        }
-        .sectiontwo{
-            display: grid;
-            /* flex-direction: row; */
-        }
-        section .mydata{
-            background: white;
-            box-sizing: border-box;
-            padding: 45px;
-            box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-            width: 380px;
-            height: 300px;
-            margin-top: 18px;
-        }
-        section .mydata p{
-            font-size: 13px;
-        }
-        
-
+    .mydata {
+        min-width: 330px;
+        padding: 0;
+    }
   }
