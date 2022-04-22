@@ -93,6 +93,7 @@ nav h3:hover{
      font-size: 65px;
      color: #ffffff;
      z-index: 3;
+     
  }
 
  /* this is just to add contrast and apply opacity to background image 
@@ -107,13 +108,7 @@ nav h3:hover{
      top: 0;
      opacity: 0.25;
  }
- .footer-one h1{
-     text-align: center;
-     margin-top: 28px;
-     height: 40vh; 
-     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.45);
 
- }  
  .sectiontwo{
      margin: 45px auto;
      margin-top: 115px;
@@ -154,11 +149,30 @@ nav h3:hover{
      transform:scale(1.05);
      transition: 1s;
  }
+.footer-one{
+    background-color: #f0f6f8;
+    height: 40vh;
+}
+ .footer-one h1{
+    text-align: center;
+    margin-top: 28px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.45);
+
+} 
+.footer-one .primary h1{
+    color: #0c1213;
+    padding: 18px;
+}
+.footer-one .contact-detail{
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+}
 
 /* ========================== */
 .hero-container-one{
-margin-left: 150px;
-margin-top: 86px;  
+    margin-left: 127px;
+    margin-top: 165px; 
 position: relative; 
 box-sizing: border-box;
 color: #ffffff;
@@ -221,8 +235,55 @@ color: #ffffff;
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .mydata {
-        min-width: 330px;
+    .hero .headline{
         padding: 0;
+        margin: 0;
+    }
+    .hero .headline .hero-container-one{
+        margin: 139px;
+        margin-top: 102px;
+    }
+    .hero .headline .hero-container-one p{
+        font-size: 19px;
+        text-align: center;
+    }
+    .hero .headline .hero-container-one p:nth-child(2){
+        font-size: 14px;
+        margin-top: 13px;
+        padding: 0;
+        margin-left: -71px;
+        width: 180%;
+    }
+    .hero .headline .hero-container-one p:nth-child(3){
+        font-size: 14px;
+        margin-top: 6px;
+        padding: 0;
+        margin-left: -70px;
+        width: 180%;
+    }
+    .mydata {
+        min-width: 315px;
+        padding: 0;
+    }
+    .initial nav h3{
+        display: none;
+    }
+    .footer-one{
+        justify-content: center;
+        padding: 15px;
+        margin:2em;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    }
+    .footer-one .primary {        
+    }
+    .footer-one .primary h1{
+        font-size: 2.1rem;
+        color: rgb(0, 0, 0);
+    }
+    .footer-one{
+        height: 35vh;
+    }
+    .footer-one .contact-detail{
+        display: grid;
     }
   }
