@@ -19,7 +19,73 @@
             text-align: center;
             top: 0;
             padding-top: 40px;
+            background: linear-gradient(#a6f8ea,#a6f8ea) repeat-x 0 100%;;
         }
     </style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Show Hide Dropdown Using CSS</title>
+<style>
+    ul{
+        padding: 0;
+        list-style: none;
+        background: #0d96a2;
+    }
+    ul li{
+        display: inline-block;
+        position: relative;
+        line-height: 21px;
+        text-align: left;
+    }
+    ul li a{
+        display: block;
+        padding: 8px 25px;
+        color: rgb(124, 130, 22);
+        text-decoration: none;
+    }
+    ul li a:hover{
+        color: blue;
+        background: #939393;
+        
+    }
+    ul li ul.dropdown{
+        min-width: 100%; /* Set width of the dropdown */
+        background: #f2f2f2;
+        display: none;
+        position: absolute;
+        z-index: 999;
+        left: 0;
+        
+    }
+    ul li:hover ul.dropdown{
+        display: block;	/* Display the dropdown */
+    }
+    ul li ul.dropdown li{
+        display: block;
+        
+    }
+</style>
+    <div>
+
+    </div>
+    <ul>
+        <li>
+            <a href="#">Products</a>
+            <ul  class="dropdown">
+                <li><a href="#">Laptops</a></li>
+                <li><a href="#">Monitors</a></li>
+                <li><a href="#">Printers</a></li>
+                <ul class="dropdown">
+                    <li><a href="#">Laptops</a></li>
+                    <li><a href="#">Monitors</a></li>
+                    <li><a href="#">Printers</a></li>
+                </ul>
+            </ul>
+            
+        </li>
+    </ul>
 </body>
 </html>

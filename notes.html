@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/d4211fb626.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header-prim">
+        <!-- img -->
+        <div class="mask">
+            <h1>Hrishi</h1>
+
+        </div>
+        <div class="header-sec">
+
+        </div>
+    </header>
+
+    <nav class="nav-prim">
+        <!-- some list items -->
+    </nav>
+
+
+    <div class="hero-container-prim" style="display: flex;">
+        <div class="hero-container-child-prim">
+            <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+            
+           
+        </div>
+        <div class="hero-container-child-sec">
+            <div class="hero-container-child-sec-one">
+                    <img src="./assets/moonnight.jpg" alt="">
+            </div>
+            
+        </div>
+    </div>
+
+    <section class="section-prim">
+        <p> <i class="fa-solid fa-quote-left fa-2x fa-pull-left " style="--fa-pull-margin: 4em;"></i> Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Modi neque debitis libero sed voluptatibus deserunt iure maiores eius adipisci blanditiis, aliquid, sapiente nihil 
+            exercitationem repudiandae hic. Delectus iusto, minima ratione nobis sint maxime totam eius reiciendis commodi
+             exercitationem minus officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur delectus quia repellat adipisci. Iusto esse labore quae illum quos dicta. <i class="fa-solid fa-quote-right fa-2x fa-pull"></i></p>
+        <!-- teams or info   -->
+    </section>
+
+
+
+
+    <div class="image-banner">
+        <div class="image-wrap">
+            <img src="./assets/mainbg-layer.jpg" alt="">
+            <div class="text-wrap">
+                <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, dicta.</h1>
+            </div>
+        </div>
+    </div>
+<!-- ----------------------------------------- try iframe---------------  -->
+    <div style="width: 58%; border: 5px solid rgb(25, 78, 125);  text-align: center; margin: auto;">
+        <iframe width="420" height="295" src="https://www.youtube.com/embed/8R9ZLs53feE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+    </div>
+<!-- --------------------------------------------------------------------------------------------------  -->
+
+    <aside class="aside-prim">
+        <!-- some words from you -->
+    </aside>
+
+
+    <footer class="footer-prim">
+        <div>
+            <i class="fa-brands fa-instagram fa-fade"></i>
+            <i class="fa-brands fa-instagram fa-fade"></i>
+            <i class="fa-brands fa-instagram fa-fade"></i>
+            <i class="fa-brands fa-instagram fa-fade"></i>
+        </div>
+        <!-- ============ here use fa-stack fa-size for changing size of icons using class  -->
+        <div>
+            <span class="fa-stack fa-3x">
+                <i class="fa-solid fa-square fa-stack-2x"></i>
+                <i class="fab fa-twitter fa-stack-1x fa-inverse " style="--fa-inverse: #2892cb;"></i>
+              </span>   
+              <span class="fa-stack fa-2x">
+                <i class="fa-solid fa-circle fa-stack-2x"></i>
+                <i class="fa-solid fa-flag fa-stack-1x fa-inverse"></i>
+              </span>
+            
+        </div>
+        <div>
+            <i class="fa-regular fa-circle fa-2x">Monte</i>
+            <span class="fa-stack" style="vertical-align: top;">
+              <i class="fa-regular fa-circle fa-stack-2x"></i>
+              <i class="fa-solid fa-flag fa-stack-1x"></i>
+            </span>
+            <span class="fa-stack" style="vertical-align: top;">
+              <i class="fa-solid fa-circle fa-stack-2x"></i>
+              <i class="fa-solid fa-flag fa-stack-1x fa-inverse"></i>
+            </span>
+            <i class="fa-regular fa-circle fa-2x"></i>  
+        </div>
+        <!-- contact info -->
+        <!-- social media icons -->
+    </footer>
+
+
+
+
+    <!-- ---------------------------------------------------------------------------------------------------- -->
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            /* overflow: hidden    ; */
+        }
+
+        .header-prim{
+            background-color: rgb(255, 255, 255);
+            
+        }
+        .header-prim .mask{
+            min-height: 60vh;
+            text-align: center;
+        }
+
+
+        .header-prim .header-sec{
+            background-color: lightgreen;
+            min-height: 40vh;
+        }
+        .mask{
+            font-size: 12vw ;
+            background-image: url(./assets/moonbg.jpg);
+            /* background-size: cover;   */
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            
+        }
+        .nav-prim{
+            min-height: 60vh;
+            background-color: rgb(89, 180, 186);
+        }
+        .hero-container-prim{
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .hero-container-child-prim{
+            display: flex;
+            flex-direction: row;
+            /* justify-content: space-around; */
+            
+        }
+        .hero-container-child-prim {
+            /* margin-left: 40px; */
+            width: 80%;
+            border: 4px solid crimson;
+            margin: 0 auto;
+            margin-left: 25px;
+        }
+        .hero-container-child-prim h1{
+            text-align: center;
+            /* width: 500px; */
+            margin: 0 auto;
+            margin-top: 155px;
+            font-size: 2rem;
+            color: rgb(0, 0, 0);
+            border: 4px solid aliceblue;
+        }
+        .hero-container-child-sec{
+            /* border: 5px solid coral; */
+            /* box-shadow: rgba(12, 139, 143, 0.541) 0px 2px 8px 0px; */
+            /* width: 50%; */
+            margin: 0px auto;
+            padding: 5px;
+            float: right;
+        }
+        .hero-container-child-sec img{
+            box-shadow: rgba(103, 180, 10, 0.541) 0px 2px 8px 0px;
+            width: 60%;
+            /* padding: 35px; */
+            right: 0;
+            margin: 0 auto;
+            margin-top: 35px;
+            float: right;
+        }
+        .section-prim{
+            min-height: 50vh;
+            background-color: aquamarine;
+            /* position: fixed; */
+        }
+        .aside-prim{
+            min-height: 25vh;
+            background-color: crimson;
+
+        }
+        .footer-prim{
+            min-height: 40vh;
+            background-color: azure;
+        }
+        .fa-brands{
+            color: rgb(146, 9, 117);
+            font-size: 30px;
+        }
+        .footer-prim div{
+            margin-bottom: 0;
+            text-align: center;
+        }
+        .image-wrap{
+            
+            box-sizing: border-box;
+            width: 80%;
+            overflow: hidden;
+            position: relative;
+            margin: 10% auto ;
+            /* margin: 8% auto;     */
+            background-color: rgb(134, 177, 214);
+            align-items: center;
+            justify-content: center;
+        }
+        .image-wrap img{
+            width: 100%;
+        }
+        .text-wrap{
+            position: absolute;
+            width: 100%;
+            /* margin-top: -50%; */
+            
+        }
+        .image-wrap .text-wrap h1{
+            text-align: center;
+            margin-top: -40%;
+            color: white;
+            font-size: 45px;
+            font-weight: 800;
+            
+        }
+        
+    </style>
+</body>
+</html>
