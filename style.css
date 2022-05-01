@@ -122,7 +122,7 @@ font-family: 'Quicksand', sans-serif;
      /* font-family: 'Indie Flower', cursive; */
  }
  .sectiontwo .mydata p{
-    font-size: 19px;
+    /* font-size: 16px; */
     font-family: 'Quicksand', sans-serif;
      /* padding: 28px; */
      font-weight: 600;
@@ -133,6 +133,10 @@ font-family: 'Quicksand', sans-serif;
  .sectiontwo .mydata .textglow{
      color: #7dba15;
  }
+ .mydata p .checkout-gallery{
+     font-weight:500;
+     line-height: 2px;
+}
  .sectiontwo .gallery-box{
      justify-content: center;
      text-align: center;
@@ -185,6 +189,9 @@ font-family: 'Quicksand', sans-serif;
     margin: auto;
     /* padding: 35px;  */
 }
+/* .project-sectio-one p{
+    font-size: 14px;
+} */
 .project-sectio-one a div{
     padding: 6px;
     margin: 15px;
@@ -331,18 +338,23 @@ footer .contact-box .contact-box-sec img{
         font-size: 14px;
     }
     .mydata {
-        min-width: 330px;
+        min-width: 340px;
         padding: 0;
     }
+    .mydata p{
+        font-size: 14px;
+        font-weight: 500;  
+    }
+    
     .mygallery-bg{
         z-index:-22;
         position: relative;
         margin: auto auto  auto auto;
-        margin-top: -55px;
-        margin-right: 120px;
+        margin-top: -32px;
+        /* margin-right: 120px; */
      }
      .mygallery-bg img{
-        width: 70%;
+        width: 40%;
          border-top: 45px solid #283618;
          border-right: 75px solid #283618;
          border-left: 75px solid #283618;
@@ -368,10 +380,15 @@ footer .contact-box .contact-box-sec img{
     .project-sectio-one p{
         text-align: center;
         margin: 0 auto  ;
-        font-size: 2rem;
+        font-size: 1.6rem;
         padding: 4px;
-
     }
+    .project-sectio-one p:nth-child(2){
+        font-size: 11px;
+        margin: -16px 49px;
+        float: left;
+        color: rgb(0, 0, 0);
+        }
     footer .contact-box{
         min-height: 30vh;
         margin: 42px auto;
@@ -389,14 +406,16 @@ footer .contact-box .contact-box-sec img{
         width: 55px;
     }
     footer .contact-box .contact-box-prim .contact-box-prim-two{
-        margin: 20px auto;
+        margin: 22px auto;
     }
     footer .contact-box .contact-box-prim .contact-box-prim-two p{
-        font-size: 14px;
+        font-size: 16.5px;
+        color: #727272;
+        font-weight: 300;
     }
     footer .contact-box .contact-box-prim .contact-box-prim-two a p{
         font-size: 14px;
-        color: rgb(12, 99, 153);
+        color: rgb(0, 0, 0);
     }
     footer .contact-box .contact-box-prim .contact-box-sec{
         margin: 0 auto;
