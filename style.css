@@ -92,12 +92,14 @@ font-family: 'Quicksand', sans-serif;
     font-family: 'Space Mono', monospace;
     text-align: center;
     margin-top: 10px;
+    line-height: 23px;
 }
 .hero-container .myintro-prim p a{
     text-decoration: none;
     font-size: 19px;
     color: rgb(0, 0, 0);
     background-color: lavender;
+    
 }
 
  .sectiontwo{
@@ -220,10 +222,17 @@ font-family: 'Quicksand', sans-serif;
 .project-sectio-one p{
     text-align: center;
     margin: 0 auto  ;
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     padding: 4px;
 
 }
+.project-sectio-one p:nth-child(2){
+    font-size: 11px;
+    margin: -15px 28%;
+    float: left;
+    color: rgb(0, 0, 0);
+    }
+
 
 footer .contact-box{  
     width: 80%;
@@ -247,6 +256,9 @@ footer .contact-box .contact-box-prim {
     display: flex;
     justify-content: space-around;
 
+}
+footer .contact-box .contact-box-prim .contact-box-prim-one{
+    margin-bottom: 12px;
 }
 /* footer .contact-box .contact-box-prim-one div{
     display: flex;
