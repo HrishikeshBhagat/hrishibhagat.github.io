@@ -128,7 +128,7 @@ font-family: 'Quicksand', sans-serif;
     width: 9px;
     height: 9px;
     background-color: #283618;
-    border-radius: 60%;
+    border-radius: 50%;
     margin: auto;
     animation: move-wheel 1.5s linear infinite;
 }
