@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" type="image/x-icon" href="./assets/peace-solid.svg">
     <script src="https://kit.fontawesome.com/d4211fb626.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Hrishi_Bhagat</title>
 </head> 
 <body oncontextmenu="return false">
@@ -15,9 +16,10 @@
             <a href=""><img src="./assets/myname.svg" width="200" alt=""></a>
         </div>
         <ul>
-            <li><a href="">about</a><span style="color: crimson; font-size: 2rem;">.</span></li>
-            <li><a href="">contact</a><span style="color: crimson; font-size: 2rem;">.</span></li>
             <li><a href="learnings.html">learning</a><span style="color: crimson; font-size: 2rem;">.</span></li>
+            <!-- <li><a href="">about</a><span style="color: crimson; font-size: 2rem;">.</span></li> -->
+            <!-- <li><a href="">contact</a><span style="color: crimson; font-size: 2rem;">.</span></li> -->
+            
         </ul>
     </nav>
     <!-- ================================================  -->
@@ -57,15 +59,19 @@
     <!-- =========== my data section===== -->
     <div>
         <div class="sectiontwo">
-            <div class="mydata">
+            <div class="mydata" data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
                 <p>A ENTC <span class="textglow">Enginner</span>  who has always been interested in new <span class="textglow">technologies</span> which can make things easier. passionately <span class="textglow">curious</span> about all things which makes me think about its existance. my interest varies from <span class="textglow">electronics</span> to <span class="textglow">web-developmemt</span> and much more... <br>
                 <span class="checkout-gallery" style="font-family: 'Indie Flower', cursive; color: #14213d; ">& one more thing do checkout my mobile photographs gallary down here<span style="color: rgb(220, 20, 130); font-size: 2rem;">.</span></span></p>
             </div>
-            <div class="gallery-box">
+            <div class="gallery-box" data-aos="zoom-in">
                 <p><a href="./gallery.html" target="_blank">gallery</a></p>
                 <!-- <p><a href="./gallery.html"><p><span style="color: rgb(220, 37, 20); font-size: 3rem;">.</span></p></a></p> -->
             </div>
-            <div class="mygallery-bg">
+            <div class="mygallery-bg" data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
                 <img src="./assets/gallerybox.jpg" alt="" >
             </div>
         
@@ -73,19 +79,30 @@
     </div>
     <hr style="width: 80%; margin: auto auto;">
     <!-- =================== footer====== -->
-        <div class="project-sectio-one">
-            
-            <!-- <h1 style="color: rgb(0, 0, 0);">reach to me</h1>   -->
+        <div class="project-sectio-one" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">
             <p>Projects <i class="fa-solid fa-diagram-project fa-0.5x fa-fade" style="color: #d3531c;"></i> </p>
-            <a href="https://hrishikeshbhagat.github.io/leafyfood.github.io/" target="_blank">
-                
-                <div>
-                    <img src="./assets/leafyfoodtab.webp    " alt="">
+            <div class="projectone-prim">
+                <div class="projectone">
+                    <a href="https://hrishikeshbhagat.github.io/leafyfood.github.io/" target="_blank">
+                            <img src="./assets/leafyfoodtab.webp    " alt="">
+                        
+                        <!-- <a href="./swaraj_chede_prj/index.html" target="_blank" style="text-decoration: none; color: #d3531c; font-size: 2rem;" >.</a> -->
+                        
+                    </a> 
+                    <p>LeafyFood Restaurant website</p>
+    
                 </div>
-                <p>LeafyFood Restaurant website</p>
-                <a href="./swaraj_chede_prj/index.html" target="_blank" style="text-decoration: none; color: #d3531c; font-size: 2rem;" >.</a>
-                
-            </a> 
+                <div class="projectone">
+                    <a href="https://hrishikeshbhagat.github.io/leafyfood.github.io/" target="_blank">
+                            <img src="./assets/leafyfoodtab.webp    " alt="">
+                        
+                        <!-- <a href="./swaraj_chede_prj/index.html" target="_blank" style="text-decoration: none; color: #d3531c; font-size: 2rem;" >.</a> -->
+                        
+                    </a> 
+                    <p>LeafyFood Restaurant website</p>
+                </div>
+            </div>
         </div>
 
         
@@ -119,6 +136,10 @@
     <!-- =========== script files ======== -->
    
     <script src="./in.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
 </body>
 </html>
