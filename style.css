@@ -236,7 +236,116 @@
   /* margin: 0px auto 0px -19px; */
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
+.myskls {
+  background-color: aliceblue;
+  margin: 18px auto;
+  box-shadow: rgba(169, 210, 220, 0.255) 0px 48px 100px 0px;
+  width: 95%;
+  /* min-height: 40vh; */
+}
+.myskls h3 {
+  margin-top: 43px;
+  margin-left: 43px;
+  /* font-family: 'Kaushan Script', cursive; */
+  /* font-family: 'Dancing Script', cursive; */
+  font-family: "Space Mono", monospace;
+  /* font-family: 'Open Sans', sans-serif; */
+  /* font-family: 'Quicksand', sans-serif; */
+  /* font-family: 'Indie Flower', cursive; */
+  /* font-family: 'Quicksand', sans-serif; */
+  /* font-family: 'Major Mono Display', monospace; */
+  width: 40%;
+}
 
+.myskls .line {
+  width: 250px;
+  height: 1px;
+  margin-left: 1em;
+  margin-bottom: 0.3em;
+  display: inline-block;
+  background-color: #7fac23;
+}
+.myskls .myskls-child-one {
+  display: flex;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2em;
+}
+.myskls .myskls-child-one .one {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  width: 13%;
+  margin-left: 80px;
+}
+
+.myskls .myskls-child-one .two {
+  margin-right: 80px;
+  text-align: center;
+}
+.myskls .myskls-child-one .two .skill {
+  justify-content: center;
+  text-align: center;
+  margin: auto auto;
+}
+
+.myskls .myskls-child-one .two .skillicon {
+  margin: auto 0;
+}
+.myskls .myskls-child-one .one .skillicon .fa-solid {
+  font-size: 21px;
+  color: rgba(29, 29, 29, 0.845);
+}
+.myskls .myskls-child-one .two .skillicon .fa-brands {
+  font-size: 21px;
+  color: rgba(220, 20, 60, 0.845);
+}
+.myskls .myskls-child-two .three .skillicon {
+  margin: auto 0;
+}
+.myskls .myskls-child-two .three .skillicon .fa-solid {
+  font-size: 21px;
+  color: rgb(8, 109, 182);
+}
+.myskls .myskls-child-one .one,
+.two {
+  width: 30%;
+  padding: 0.8rem 1.2rem;
+  display: inline-block;
+  border: 3px solid #333333;
+  font-size: 12px;
+  border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+  text-transform: uppercase;
+  letter-spacing: 0.3ch;
+  background: #ffffff;
+  display: flex;
+}
+.myskls .myskls-child-two {
+  display: flex;
+  justify-content: center;
+  margin: 2em auto;
+}
+
+.myskls .myskls-child-two .three {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  padding: 0.8rem 1.2rem;
+  border: 3px solid #333333;
+  font-size: 12px;
+  border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+  text-transform: uppercase;
+  letter-spacing: 0.3ch;
+  background: #ffffff;
+  margin-bottom: 18px;
+}
+.myskls .myskls-child-two .three .skill {
+  justify-content: center;
+  text-align: center;
+  margin: 5px 13px;
+}
 .project-sectio-one {
   margin: auto;
 }
@@ -430,6 +539,52 @@ footer .contact-box .contact-box-sec img {
     /* margin: 0px auto; */
     justify-content: center;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  }
+  .myskls {
+    display: flex;
+    flex-direction: column;
+    margin: 32px auto;
+  }
+  .myskls .line {
+    width: 150px;
+    /* height: 1px;
+      margin-left: 1em;
+      margin-bottom: 0.3em;
+      display: inline-block;
+      background-color: #7fac23; */
+    margin: 0 auto;
+  }
+  .myskls .myskls-child-one {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .myskls .myskls-child-one .one {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+    justify-content: center;
+  }
+  .myskls .myskls-child-one .two {
+    margin: 22px auto;
+    width: 70%;
+    text-align: center;
+    justify-content: center;
+  }
+  .myskls .myskls-child-two {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    /* margin: 0 0; */
+  }
+  .myskls .myskls-child-two .three {
+    /* margin: 0 0; */
+    min-height: 4vh;
+    text-align: center;
+    justify-content: center;
   }
   .sectiontwo {
     margin: 16px auto;
