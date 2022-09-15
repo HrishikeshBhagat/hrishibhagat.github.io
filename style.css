@@ -590,6 +590,11 @@ footer .contact-box .contact-box-sec img {
     margin: 16px auto;
     margin-top: 15px;
   }
+  .project-sectio-one p {
+    text-align: center;
+    margin: 16px 11px;
+    font-size: 1.8rem;
+  }
   .project-sectio-one a img {
     width: 65%;
     text-align: center;
