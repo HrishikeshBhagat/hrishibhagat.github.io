@@ -119,7 +119,7 @@
 }
 .slide-line .mouse {
   position: absolute;
-  margin: -250px 50%;
+  margin: -150px 50%;
   width: 17px;
   height: 55px;
   border: 2px solid rgb(58, 113, 191);
